@@ -1,0 +1,13 @@
+Principal = int(input("PRINCIPAL : "))
+Interest = int(input("INTERENT : "))
+Years = int(input("YEASR : "))
+Time = int(input("TIME : "))
+Amount = Principal * ( 1 + Interest / Time) ** (Years*Time)
+
+print("================================")
+print("BEGINNING PRINCIPAL : ",Principal)
+print("INTEREST : ",Interest)
+print("YEARS : ",Years)
+print("TIME : ",Time)
+print("Amount : ",Amount)
+print("================================")
